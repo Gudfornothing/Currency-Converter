@@ -1,0 +1,78 @@
+/* Reset margins and padding for all elements */
+* {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Center the entire content on the page */
+body {
+  display: flex; /* Use Flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Full viewport height */
+  background-color: #5d737e; /* Background color */
+}
+
+/* Style the main container */
+.container {
+  background-color: #d6d5c9; /* Light background color */
+  padding: 3rem; /* Padding inside the container */
+  border-radius: 5%; /* Rounded corners */
+  min-height: 40vh; /* Minimum height */
+  width: 40vh; /* Fixed width */
+}
+
+/* Style form elements (select, input, button) */
+form select,
+input,
+button {
+  margin-bottom: 1rem; /* Space below each element */
+  width: 100%; /* Full width of the container */
+  border: none; /* Remove default border */
+  outline: none; /* Remove default outline */
+}
+
+/* Style input fields specifically */
+form input {
+  border: 2px solid gray; /* Gray border */
+  font-size: 1.5rem; /* Larger text size */
+}
+
+/* Style the dropdown container */
+.dropdown {
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between items */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style the select dropdown and its container */
+.select-container {
+  display: flex; /* Flexbox layout */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style the icon between dropdowns */
+.dropdown i {
+  font-size: 1.5rem; /* Larger icon size */
+  color: #5d737e; /* Icon color */
+}
+
+/* Style the select dropdown text */
+.select-container select {
+  font-size: large; /* Larger text size */
+}
+
+/* Style the message element */
+.msg {
+  margin-top: 1rem; /* Space above the message */
+}
+
+/* Style the button */
+form button {
+  height: 3rem; /* Button height */
+  border-radius: 0.5rem; /* Rounded corners */
+  background-color: #5d737e; /* Button background color */
+  color: aliceblue; /* Button text color */
+  margin-top: 5rem; /* Space above the button */
+  cursor: pointer; /* Pointer cursor on hover */
+}
